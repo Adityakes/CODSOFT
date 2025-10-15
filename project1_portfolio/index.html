@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- HEADER / NAV -->
+    <header>
+      <div class="nav">
+        <div class="brand">
+          <div class="logo">A</div>
+          <div>
+            <div class="sub-brand">Portfolio</div>
+            <div class="name">Aditya</div>
+          </div>
+        </div>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a class="cta" href="#contact">Hire Me</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main id="home" class="hero fade-in">
+      <div class="hero-grid">
+        <div class="intro">
+          <h1>Hi, I'm <span class="accent">Aditya</span> — Web Developer</h1>
+          <p>I build clean and responsive web experiences using HTML, CSS and JavaScript. I enjoy turning ideas into pixel-perfect reality.</p>
+          <div class="skill-badges">
+            <div class="badge">HTML</div>
+            <div class="badge">CSS</div>
+            <div class="badge">JavaScript</div>
+            <div class="badge">React (learning)</div>
+            <div class="badge">Node.js</div>
+            <div class="badge">C++</div>
+          </div>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#projects">See Projects</a>
+            <a class="btn btn-download" href="files/Aditya_CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+
+        <aside class="profile-card">
+          <div class="avatar">A</div>
+          <div class="name">Aditya</div>
+          <div class="small-muted">Web Developer • Frontend</div>
+          <div class="description">Building small & useful web apps and UI.</div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- ABOUT -->
+    <section id="about" class="fade-in">
+      <h2 class="section-title">About</h2>
+      <div class="card">
+        <p class="text-muted">
+          I'm Aditya — a passionate web developer focused on making responsive and accessible web experiences.
+          I like working with modern HTML, CSS and JavaScript. I build small projects to practice frontend patterns and improve UI/UX skills.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="fade-in">
+      <h2 class="section-title">Skills</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-title">Frontend</div>
+          <div class="project-desc">HTML5 • CSS3 • Flexbox • Grid • JavaScript (ES6+)</div>
+          <div class="tags">
+            <div class="tag">Responsive</div>
+            <div class="tag">Accessibility</div>
+            <div class="tag">Performance</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Libraries / Tools</div>
+          <div class="project-desc">React (basics), Git, NPM, VS Code</div>
+          <div class="tags">
+            <div class="tag">Git</div>
+            <div class="tag">Webpack</div>
+            <div class="tag">Figma</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Other</div>
+          <div class="project-desc">Node.js • REST APIs • C++ (basic)</div>
+          <div class="tags">
+            <div class="tag">Algorithms</div>
+            <div class="tag">Debugging</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="fade-in">
+      <h2 class="section-title">Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="project-title">Portfolio Website</div>
+          <div class="project-desc">This website — built with plain HTML, CSS and JS. Clean, responsive and ready for customization.</div>
+          <div class="tags"><div class="tag">HTML</div><div class="tag">CSS</div><div class="tag">JS</div></div>
+        </div>
+        <div class="card">
+          <div class="project-title">Calculator App</div>
+          <div class="project-desc">Simple arithmetic calculator built using JavaScript — supports + - × ÷ and clear functionality.</div>
+          <div class="tags"><div class="tag">Vanilla JS</div><div class="tag">DOM</div></div>
+        </div>
+        <div class="card">
+          <div class="project-title">To-Do App (demo)</div>
+          <div class="project-desc">A lightweight to-do list with add/remove and localStorage persistence (demo project).</div>
+          <div class="tags"><div class="tag">LocalStorage</div><div class="tag">UI</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="fade-in">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div class="card contact-form">
+          <form id="contactForm">
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="Your email" required>
+            <textarea id="message" placeholder="Message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <div id="formMsg" class="text-muted"></div>
+          </form>
+        </div>
+        <aside class="contact-card">
+          <div class="card-title">Get in touch</div>
+          <div class="contact-info">
+            <div>Email: <strong>aditya@example.com</strong></div>
+            <div>Location: India</div>
+            <div>Open to internships & freelance projects.</div>
+          </div>
+          <div class="social-links">
+            <a href="#" onclick="alert('LinkedIn link placeholder')" class="tag">LinkedIn</a>
+            <a href="#" onclick="alert('GitHub link placeholder')" class="tag">GitHub</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      © <span id="year"></span> Aditya — Built with ❤️ • HTML · CSS · JS
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
