@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya | Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo">Aditya<span>Dev</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Aditya 👋</span></h1>
+      <p>A beginner web developer passionate about learning and building creative web projects.</p>
+      <button>Explore My Work</button>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm currently learning HTML, CSS, and JavaScript.  
+      This landing page is created as part of my CodeSoft Internship (Task 2).  
+      I enjoy building simple and clean user interfaces while improving my coding skills day by day.
+    </p>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+      <div class="project-card fade-in">
+        <h3>🧑‍💻 Portfolio Website</h3>
+        <p>A personal portfolio that showcases my projects and skills using HTML & CSS.</p>
+      </div>
+      <div class="project-card fade-in">
+        <h3>🧮 Calculator</h3>
+        <p>A clean calculator made using HTML, CSS, and JavaScript for basic math operations.</p>
+      </div>
+      <div class="project-card fade-in">
+        <h3>🌐 Landing Page</h3>
+        <p>An attractive beginner-friendly landing page created as a part of my internship task.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="contact">
+    <p>Contact me at: <strong>aditya@example.com</strong></p>
+    <p>© 2025 Aditya | All Rights Reserved</p>
+  </footer>
+
+  <!-- Optional: Fade-in Scroll Script -->
+  <script>
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = { threshold: 0.2 };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('appear');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    });
+  </script>
+
+</body>
+</html>
