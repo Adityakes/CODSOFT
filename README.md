@@ -14,7 +14,7 @@ This repository contains all my projects completed during my \*\*CodSoft interns
 
 &nbsp;  Folder: `landing\_page`  
 
-&nbsp;  GitHub Pages: \[View Live](https://Adityakes.github.io/CODSOFT/landing\_page/)
+&nbsp;  GitHub Pages: \[View Live](https://Adityakes.github.io/CODSOFT/landing_page/)
 
 
 
@@ -22,7 +22,7 @@ This repository contains all my projects completed during my \*\*CodSoft interns
 
 &nbsp;  Folder: `project2\_landing\_page`  
 
-&nbsp;  GitHub Pages: \[View Live](https://Adityakes.github.io/CODSOFT/project2\_landing\_page/)
+&nbsp;  GitHub Pages: \[View Live](https://Adityakes.github.io/CODSOFT/project2_landing_page/)
 
 
 
@@ -30,7 +30,7 @@ This repository contains all my projects completed during my \*\*CodSoft interns
 
 &nbsp;  Folder: `project1\_portfolio`  
 
-&nbsp;  GitHub Pages: \[View Live](https://Adityakes.github.io/CODSOFT/project1\_portfolio/)
+&nbsp;  GitHub Pages: \[View Live](https://Adityakes.github.io/CODSOFT/project1_portfolio/)
 
 
 
@@ -38,7 +38,7 @@ This repository contains all my projects completed during my \*\*CodSoft interns
 
 &nbsp;  Folder: `project3\_calculator`  
 
-&nbsp;  GitHub Pages: \[View Live](https://Adityakes.github.io/CODSOFT/project3\_calculator/)
+&nbsp;  GitHub Pages: \[View Live](https://Adityakes.github.io/CODSOFT/project3_calculator/)
 
 
 
