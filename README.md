@@ -1,63 +1,100 @@
 # 💻 CODSOFT Internship Projects
 
-> A collection of projects developed during my **CODSOFT Internship**, focusing on **Web Development, UI Design, JavaScript, and Frontend Development**.
+A collection of web development projects completed during my **CODSOFT Internship**, focused on building responsive, interactive, and user-friendly web applications using **HTML, CSS, JavaScript, and modern frontend development practices**.
+
+The projects helped me strengthen my understanding of **frontend development, responsive UI design, JavaScript functionality, Git/GitHub, and web deployment**.
 
 ---
 
 ## 🚀 Projects
 
-### 1. 🌐 Landing Page
+### 01. 🌐 Landing Page
 
-A responsive landing page created as part of the CODSOFT internship tasks.
+A responsive and visually structured landing page developed as part of the CODSOFT internship.
 
-📁 **Folder:** `landing_page`
+**Key Highlights**
+
+* Responsive layout
+* Structured HTML5 markup
+* Custom CSS styling
+* Modern webpage sections
+* Mobile-friendly design
+
+**Project Folder:** `landing_page`
 
 🔗 **Live Demo:**
 https://Adityakes.github.io/CODSOFT/landing_page/
 
 ---
 
-### 2. 🎨 Project 2 — Landing Page
+### 02. 🎨 Modern Landing Page
 
-A second landing page project developed to practice modern web layouts, styling, and responsive design.
+A second landing page project created to further practice **modern web layouts, visual hierarchy, responsive design, and frontend styling**.
 
-📁 **Folder:** `project2_landing_page`
+**Key Highlights**
+
+* Modern UI layout
+* Responsive design
+* CSS-based styling
+* Clean section structure
+* Improved user interface
+
+**Project Folder:** `project2_landing_page`
 
 🔗 **Live Demo:**
 https://Adityakes.github.io/CODSOFT/project2_landing_page/
 
 ---
 
-### 3. 👨‍💻 Portfolio Website
+### 03. 👨‍💻 Personal Portfolio Website
 
-A personal portfolio website showcasing my skills, projects, and development work.
+A personal portfolio website designed to showcase my **skills, projects, experience, and development journey**.
 
-📁 **Folder:** `project1_portfolio`
+**Key Highlights**
+
+* Personal introduction
+* Skills section
+* Project showcase
+* Responsive design
+* Interactive frontend elements
+* Clean and user-friendly interface
+
+**Project Folder:** `project1_portfolio`
 
 🔗 **Live Demo:**
 https://Adityakes.github.io/CODSOFT/project1_portfolio/
 
 ---
 
-### 4. 🧮 Calculator
+### 04. 🧮 JavaScript Calculator
 
-A functional calculator project built to practice frontend development and JavaScript-based calculations.
+A functional calculator application developed to practice **JavaScript logic, DOM manipulation, event handling, and user interaction**.
 
-📁 **Folder:** `project3_calculator`
+**Key Highlights**
+
+* Basic arithmetic operations
+* Interactive buttons
+* JavaScript-based calculations
+* User-friendly interface
+* Responsive layout
+
+**Project Folder:** `project3_calculator`
 
 🔗 **Live Demo:**
 https://Adityakes.github.io/CODSOFT/project3_calculator/
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies & Tools
 
-* 🌐 HTML5
-* 🎨 CSS3
-* ⚡ JavaScript
-* 📱 Responsive Web Design
-* 🔧 Git & GitHub
-* 🚀 GitHub Pages
+| Technology / Tool | Purpose                                |
+| ----------------- | -------------------------------------- |
+| **HTML5**         | Page structure and semantic markup     |
+| **CSS3**          | Styling, layouts and responsive design |
+| **JavaScript**    | Interactivity and application logic    |
+| **Git**           | Version control                        |
+| **GitHub**        | Repository management                  |
+| **GitHub Pages**  | Project deployment                     |
 
 ---
 
@@ -67,56 +104,115 @@ https://Adityakes.github.io/CODSOFT/project3_calculator/
 CODSOFT/
 │
 ├── 📁 landing_page/
+│   └── Landing Page Project
 │
 ├── 📁 project2_landing_page/
+│   └── Modern Landing Page
 │
 ├── 📁 project1_portfolio/
+│   └── Personal Portfolio Website
 │
 ├── 📁 project3_calculator/
+│   └── JavaScript Calculator
 │
 └── 📄 README.md
 ```
 
 ---
 
-## 🎯 Internship Highlights
+## 🎯 Skills Developed
 
-Through these projects, I gained practical experience in:
+During this internship, I gained practical experience in:
 
-* Building responsive websites
-* Creating modern web layouts
-* Writing HTML & CSS
+* Building responsive web pages
+* Creating structured and semantic HTML
+* Designing user interfaces with CSS
 * Implementing JavaScript functionality
-* Developing interactive UI components
+* Working with DOM manipulation and events
+* Creating interactive UI components
+* Improving responsive and mobile-friendly layouts
 * Using Git and GitHub for version control
-* Deploying projects using GitHub Pages
+* Managing project repositories
+* Deploying websites using GitHub Pages
+* Organizing frontend projects using a clean folder structure
 
 ---
 
-## 📸 Projects Preview
+## 📈 Internship Learning Journey
 
-Each project folder contains its respective source code and assets.
+These projects provided hands-on experience in moving from basic webpage development to interactive frontend applications.
 
-Use the **Live Demo** links above to explore the deployed projects.
+```text
+HTML & CSS
+     ↓
+Responsive Web Design
+     ↓
+Modern UI Development
+     ↓
+JavaScript & DOM
+     ↓
+Interactive Applications
+     ↓
+Git & GitHub
+     ↓
+Web Deployment
+```
 
 ---
 
-## 👨‍💻 Author
+## 🌐 Live Projects
+
+Explore the projects directly through GitHub Pages:
+
+| Project                 | Live Demo                                                                  |
+| ----------------------- | -------------------------------------------------------------------------- |
+| 🌐 Landing Page         | [View Project](https://Adityakes.github.io/CODSOFT/landing_page/)          |
+| 🎨 Modern Landing Page  | [View Project](https://Adityakes.github.io/CODSOFT/project2_landing_page/) |
+| 👨‍💻 Portfolio Website | [View Project](https://Adityakes.github.io/CODSOFT/project1_portfolio/)    |
+| 🧮 Calculator           | [View Project](https://Adityakes.github.io/CODSOFT/project3_calculator/)   |
+
+---
+
+## 📸 Project Preview
+
+Each project directory contains its complete source code and required assets.
+
+For the best experience, open the **Live Demo** links above to view the deployed projects.
+
+---
+
+## 👨‍💻 About Me
 
 ### **Aditya Keshri**
 
-🎓 B.Tech Computer Science & Engineering
-💻 Web Development | Python | AI/ML Enthusiast
-🔗 GitHub: **Adityakes**
+**B.Tech — Computer Science & Engineering**
+
+Interested in:
+
+* 💻 Software Development
+* 🐍 Python
+* 🌐 Web Development
+* 🤖 AI / Machine Learning
+* 📊 Data & Technology
+
+**GitHub:** [Adityakes](https://github.com/Adityakes)
 
 ---
 
-## ⭐ Support
+## 📌 About CODSOFT
 
-If you find these projects useful or interesting, consider giving this repository a ⭐ on GitHub!
+These projects were developed as part of my **CODSOFT Internship** to gain practical experience in web development and software engineering.
+
+The internship provided an opportunity to work on real-world style tasks, strengthen frontend development fundamentals, and understand the workflow of building, managing, and deploying web projects.
 
 ---
 
-### 📌 About CODSOFT
+## ⭐ Feedback & Support
 
-These projects were developed as part of my **CODSOFT Internship** to gain hands-on experience in software and web development.
+If you find these projects useful, feel free to explore the source code, provide feedback, or ⭐ the repository.
+
+**Thank you for visiting!**
+
+---
+
+### Made with 💻 and ☕ by **Aditya Keshri**
